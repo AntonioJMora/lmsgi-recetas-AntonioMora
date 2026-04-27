@@ -2,7 +2,7 @@
     <xs:element name="recetas">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="receta">
+                <xs:element name="receta" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name = "codigo" type="xs:integer"/>
@@ -11,6 +11,7 @@
                             <xs:element name="tiempo" type="xs:integer"/>
                             <xs:element name="dificultad" type="xs:string"/>
                         </xs:sequence>
+                        <xs:attribute name="codigo" type="xs:string" use="required"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
