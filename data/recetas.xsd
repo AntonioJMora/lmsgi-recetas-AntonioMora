@@ -5,9 +5,8 @@
                 <xs:element name="receta" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name = "codigo" type="xs:integer"/>
                             <xs:element name="nombre" type="xs:string"/>
-                            <xs:element name="categoria" type="xs:string"/>
+                            <xs:element name="categoria" type="tipoCategoria"/>
                             <xs:element name="tiempo" type="xs:integer"/>
                             <xs:element name="dificultad" type="xs:string"/>
                         </xs:sequence>
@@ -17,4 +16,11 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="tipoCategoria">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Entrante"/>
+            <xs:enumeration value="Principal"/>
+            <xs:enumeration value="Postre"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>

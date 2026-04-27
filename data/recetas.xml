@@ -1,21 +1,18 @@
 <recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="recetas.xsd">
-    <receta>
-        <codigo>01</codigo>
+    <receta codigo="01">
         <nombre>Bizcocho</nombre>
         <categoria>Postre</categoria>
         <tiempo>60</tiempo>
         <dificultad>Facil</dificultad>
     </receta>
-    <receta>
-        <codigo>02</codigo>
+    <receta codigo="02">
         <nombre>Pan</nombre>
         <categoria>Entrante</categoria>
         <tiempo>120</tiempo>
         <dificultad>Media</dificultad>
     </receta>
-    <receta>
-        <codigo>03</codigo>
+    <receta codigo="03">
         <nombre>Arroz con pollo</nombre>
         <categoria>Principal</categoria>
         <tiempo>110</tiempo>
