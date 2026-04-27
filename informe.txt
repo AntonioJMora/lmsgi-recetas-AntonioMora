@@ -1,0 +1,3 @@
+- La herramienta usada para crear el xds ha sido Webstorm. Este se ha creado a mano basandose en el xml que se ha creado anteriormente.
+
+- DOMParser sirve para parsear tipos de datos y que se puedan usar en JS para su implementación en el HTML o donde sea necesario. Por ejemplo, en esta práctica se ha usado para parsear el XML y que pueda ser usado en la tabla.
