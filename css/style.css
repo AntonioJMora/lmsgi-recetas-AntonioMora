@@ -94,3 +94,9 @@ tbody td {
   padding: 2rem;
   font-size: 0.9rem;
 }
+
+footer {
+    margin-top: 2rem;
+    border-top: 2px solid #e0ddd6;
+    padding-top: 1.5rem;
+}
