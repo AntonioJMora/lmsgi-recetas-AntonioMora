@@ -1,4 +1,5 @@
-<recetas>
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="recetas.xsd">
     <receta>
         <codigo>01</codigo>
         <nombre>Bizcocho</nombre>
@@ -9,14 +10,14 @@
     <receta>
         <codigo>02</codigo>
         <nombre>Pan</nombre>
-        <categoria>Panaderia</categoria>
+        <categoria>Entrante</categoria>
         <tiempo>120</tiempo>
         <dificultad>Media</dificultad>
     </receta>
     <receta>
         <codigo>03</codigo>
         <nombre>Arroz con pollo</nombre>
-        <categoria>Arroces</categoria>
+        <categoria>Principal</categoria>
         <tiempo>110</tiempo>
         <dificultad>Facil</dificultad>
     </receta>
