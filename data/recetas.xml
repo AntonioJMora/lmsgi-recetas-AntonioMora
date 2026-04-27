@@ -1,0 +1,23 @@
+<recetas>
+    <receta>
+        <codigo>01</codigo>
+        <nombre>Bizcocho</nombre>
+        <categoria>Postre</categoria>
+        <tiempo>60</tiempo>
+        <dificultad>Facil</dificultad>
+    </receta>
+    <receta>
+        <codigo>02</codigo>
+        <nombre>Pan</nombre>
+        <categoria>Panaderia</categoria>
+        <tiempo>120</tiempo>
+        <dificultad>Media</dificultad>
+    </receta>
+    <receta>
+        <codigo>03</codigo>
+        <nombre>Arroz con pollo</nombre>
+        <categoria>Arroces</categoria>
+        <tiempo>110</tiempo>
+        <dificultad>Facil</dificultad>
+    </receta>
+</recetas>
